@@ -26,6 +26,11 @@
      padding-left: 20px;
      float: right;
  }
+ li a{
+     color: rgb(0, 0, 255);
+     text-decoration: none;
+     font-size: 18px;
+ }
 
  .lista li{
     color: #000000;
@@ -33,6 +38,7 @@
     padding-left: 20px;
     list-style: circle;
     float: none;
+    font-size: 19px;
     
 }
  p{
@@ -54,8 +60,13 @@
             margin-left: 10%;
             /*margin-left foi usado para definir a margem á direita*/
             margin-top: 1%;
-            
         }
+        .livros .left{
+        float: none;
+        }
+        .livros .right{
+            float: none;
+            }
         .right{ /*nome da divisão*/
             width: 40%;
             height: 450px;
@@ -64,11 +75,20 @@
             /*float foi usado para definir o quanto irá flutuar á esquerda*/ 
             margin-right: 10%;
             margin-top: 1%;
-        
-            
         }
      
         img{
             width: 400px;
             margin-left: 140px;
         }
+
+        p{
+            font-size: 19px;
+        }
+
+        .livros {
+            margin-left: 25%;
+            border: 1px solid red;
+            float: none;
+        }
+        
